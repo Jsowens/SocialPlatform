@@ -1,12 +1,50 @@
 :root {
+    /* Background */
     --theme-background-primary: #313338;
     --theme-background-secondary: #2b2d31;
     --theme-background-tertiary: #1e1f22;
+    
+    /* Foreground */
     --theme-foreground-primary: #80848E;
+    --theme-foreground-secondary: #6c757d;
+    --theme-foreground-tertiary: #495057;
+    
+    /* Info */
     --theme-success: #28a745;
     --theme-info: #17a2b8;
     --theme-warning: #ffc107;
     --theme-danger: #dc3545;
     --theme-light: #f8f9fa;
     --theme-dark: #343a40;
+    
+    /* Text */
+    --theme-text-primary: #ffffff;
+    --theme-text-secondary: #80848E;
+    --theme-text-tertiary: #6c757d;
+    --theme-text-quaternary: #495057;
+    --theme-text-light: #f8f9fa;
+    --theme-text-dark: #343a40;
+    
+    /* Border */
+    --theme-border-primary: #495057;
+    --theme-border-secondary: #343a40;
+    --theme-border-tertiary: #212529;
+    
+    /* Shadow */
+    --theme-shadow-primary: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    --theme-shadow-secondary: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        
+    /* Font */
+    --theme-font-primary: 'Roboto', sans-serif;
+    --theme-font-secondary: 'Open Sans', sans-serif;
+    
+    /* Controls */
+    --theme-control-primary: #495057;
+    --theme-control-primary-hover: #343a40;
+    --theme-control-secondary: #343a40;
+    --theme-control-secondary-hover: #212529;
+    --theme-control-tertiary: #212529;
+    --theme-control-tertiary-hover: #121416;
+    --theme-control-disabled: #495057;
+    --theme-control-focus: #495057;
 }

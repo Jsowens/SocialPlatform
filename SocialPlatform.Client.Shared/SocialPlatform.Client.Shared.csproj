@@ -5,36 +5,36 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
+    
     <ItemGroup>
-      <ProjectReference Include="..\SocialPlatform.Core\SocialPlatform.Core.csproj" />
+        <ProjectReference Include="..\SocialPlatform.Core\SocialPlatform.Core.csproj" />
     </ItemGroup>
-
+    
     <ItemGroup>
-      <AdditionalFiles Include="Layout\MainLayout.razor" />
-      <AdditionalFiles Include="Layout\NavMenu.razor" />
-      <AdditionalFiles Include="Pages\Counter.razor" />
-      <AdditionalFiles Include="Pages\Home.razor" />
-      <AdditionalFiles Include="Pages\Weather.razor" />
+        <AdditionalFiles Include="Layout\MainLayout.razor" />
+        <AdditionalFiles Include="Layout\NavMenu.razor" />
+        <AdditionalFiles Include="Pages\Counter.razor" />
+        <AdditionalFiles Include="Pages\Home.razor" />
+        <AdditionalFiles Include="Pages\Weather.razor" />
         <AdditionalFiles Include="Components\StatusIcon.razor" />
     </ItemGroup>
-
+    
     <ItemGroup>
-      <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
     </ItemGroup>
-
+    
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\css\app.css" />
-      <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css" />
-      <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css.map" />
-      <_ContentIncludedByDefault Remove="wwwroot\favicon.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\icon-192.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\index.html" />
-      <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+        <_ContentIncludedByDefault Remove="wwwroot\css\app.css" />
+        <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css" />
+        <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css.map" />
+        <_ContentIncludedByDefault Remove="wwwroot\favicon.png" />
+        <_ContentIncludedByDefault Remove="wwwroot\icon-192.png" />
+        <_ContentIncludedByDefault Remove="wwwroot\index.html" />
+        <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
     </ItemGroup>
-
+    
     <ItemGroup>
-      <Folder Include="wwwroot\img\" />
+        <Folder Include="wwwroot\img\" />
     </ItemGroup>
 
 </Project>

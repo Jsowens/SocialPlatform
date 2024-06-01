@@ -1,0 +1,177 @@
+/** Common text style 
+ *
+ */
+
+/* Size */
+.text-xxsmall {
+    font-size: 8px;
+}
+
+.text-xsmall {
+    font-size: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.text-medium {
+    font-size: 24px;
+}
+
+.text-large {
+    font-size: 48px;
+}
+
+/* Weight */
+.text-light {
+    font-weight: 300;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+/* Common Style */
+.text-primary {
+    color: var(--theme-text-primary);
+}
+
+.text-secondary {
+    color: var(--theme-text-secondary);
+}
+
+.text-tertiary {
+    color: var(--theme-text-tertiary);
+}
+
+.text-quaternary {
+    color: var(--theme-text-quaternary);
+}
+
+.text-light {
+    color: var(--theme-text-light);
+}
+
+.text-dark {
+    color: var(--theme-text-dark);
+}
+
+/* Layout */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-top {
+    vertical-align: top;
+}
+
+.text-bottom {
+    vertical-align: bottom;
+}
+
+/* Decoration */
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-overline {
+    text-decoration: overline;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+/* Transform */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Spacing */
+.text-no-spacing {
+    letter-spacing: 0;
+}
+
+.text-tight {
+    letter-spacing: -0.5px;
+}
+
+.text-loose {
+    letter-spacing: 0.5px;
+}
+
+.text-xxloose {
+    letter-spacing: 1.5px;
+}
+
+.text-xxxloose {
+    letter-spacing: 2.5px;
+}
+
+/* Line Height */
+.text-line-height-xxsmall {
+    line-height: 1;
+}
+
+.text-line-height-xsmall {
+    line-height: 1.25;
+}
+
+.text-line-height-small {
+    line-height: 1.5;
+}
+
+.text-line-height-medium {
+    line-height: 2;
+}
+
+.text-line-height-large {
+    line-height: 3;
+}
+
+.text-line-height-xlarge {
+    line-height: 4;
+}
+
+/* Overflow */
+.text-overflow-clip {
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.text-overflow-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Text Shadow */
+.text-shadow-primary {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow-secondary {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,162 @@
+/** Common layout styles
+ * 
+ */
+
+/* Justification */
+.justify-vertical-top {
+    align-items: flex-start;
+}
+
+.justify-vertical-center {
+    align-items: center;
+}
+
+.justify-vertical-bottom {
+    align-items: flex-end;
+}
+
+.justify-horizontal-left {
+    justify-content: flex-start;
+}
+
+.justify-horizontal-center {
+    justify-content: center;
+}
+
+.justify-horizontal-right {
+    justify-content: flex-end;
+}
+
+/* Container Layouts */
+.layout-vertical {
+    flex-direction: column;
+}
+
+.layout-horizontal {
+    flex-direction: row;
+}
+
+/* Centering */
+.center-vertical {
+    align-items: center;
+}
+
+.center-horizontal {
+    justify-content: center;
+}
+
+.center-both {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Spacing */
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/* Padding */
+.padding-none {
+    padding: 0;
+}
+
+.padding-small {
+    padding: 5px;
+}
+
+.padding-medium {
+    padding: 10px;
+}
+
+.padding-large {
+    padding: 20px;
+}
+
+.padding-xlarge {
+    padding: 40px;
+}
+
+/* Margin */
+.margin-none {
+    margin: 0;
+}
+
+.margin-small {
+    margin: 5px;
+}
+
+.margin-medium {
+    margin: 10px;
+}
+
+.margin-large {
+    margin: 20px;
+}
+
+.margin-xlarge {
+    margin: 40px;
+}
+
+/* Border */
+.border-none {
+    border: none;
+}
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+/* Border Radius */
+.round-none {
+    border-radius: 0;
+}
+
+.round-small {
+    border-radius: 5px;
+}
+
+.round-medium {
+    border-radius: 10px;
+}
+
+.round-large {
+    border-radius: 20px;
+}
+
+.round-xlarge {
+    border-radius: 40px;
+}
+
+/* Overflow */
+.overflow-visible {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+/* Spacer */
+.spacer {
+    flex: 1;
+}
