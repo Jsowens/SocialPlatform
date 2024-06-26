@@ -1,19 +1,47 @@
-.ico-status img {
-    width: 100%;
-    height: 100%;
+.indicator-container {
+    position: relative;
 }
 
-.ico-img {
-    width: 100%;
-    height: 100%;
-
-}
-
-.notification-count {
+.indicator {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
     position: absolute;
-    z-index: 100;
+}
+
+.indicator-low-left {
+    bottom: 0;
+    left: 0;
+}
+
+.indicator-low-right {
+    bottom: 0;
+    right: 0;
+}
+
+.indicator-high-left {
+    top: 0;
+    left: 0;
+}
+
+.indicator-high-right {
     top: 0;
     right: 0;
-    left: 0;
-    bottom: 0;
 }
+
+.indicator-online {
+    background-color: var(--theme-online);
+}
+
+.indicator-offline {
+    background-color: var(--theme-offline);
+}
+
+.indicator-away {
+    background-color: var(--theme-away);
+}
+
+.indicator-busy {
+    background-color: var(--theme-busy);
+}
+

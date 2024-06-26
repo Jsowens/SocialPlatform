@@ -1,0 +1,24 @@
+@inherits WidgetBase
+
+<div 
+    class="
+        button
+        button-primary
+        layout-horizontal
+        round-medium
+        center-vertical
+        @Class" 
+    id="@Id" 
+    style="@FormattedStyle"
+    @onclick="Click"
+    >
+    @ChildContent
+</div>
+
+@code {
+    [Parameter] public EventCallback OnClick { get; set; } = EventCallback.Empty;
+    private void Click()
+    {
+        OnClick.InvokeAsync();
+    }
+}

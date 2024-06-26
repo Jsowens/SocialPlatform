@@ -1,0 +1,29 @@
+@inherits WidgetBase
+<div
+    class="center-both @Class"
+    style="@FormattedStyle"
+    >
+    <img
+        style="@ImgStyle"
+        class="@ImgClass"
+        src="@Source"
+        alt="@Alt"
+    />
+</div>
+
+@code {
+    [Parameter] public string Source { get; set; } = string.Empty;
+    [Parameter] public string Alt { get; set; } = "No description provided.";
+    [Parameter] public string? ImgClass { get; set; } = null;
+    [Parameter] public string? ImgStyle { get; set; } = null;
+    
+    /* Throw an error if child content is not null */
+    protected override void OnInitialized()
+    {
+        if (ChildContent != null)
+        {
+            throw new InvalidOperationException("ImageFrame does not support child content.");
+        }
+        base.OnInitialized();
+    }
+}

@@ -17,6 +17,12 @@
     --theme-light: #f8f9fa;
     --theme-dark: #343a40;
     
+    /* Status */
+    --theme-online: #28a745;
+    --theme-away: #ffc107;
+    --theme-busy: #dc3545;
+    --theme-offline: #6c757d;
+    
     /* Text */
     --theme-text-primary: #ffffff;
     --theme-text-secondary: #80848E;

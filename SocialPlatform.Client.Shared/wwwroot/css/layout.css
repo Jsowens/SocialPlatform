@@ -29,23 +29,28 @@
 
 /* Container Layouts */
 .layout-vertical {
+    display: flex;
     flex-direction: column;
 }
 
 .layout-horizontal {
+    display: flex;
     flex-direction: row;
 }
 
 /* Centering */
 .center-vertical {
+    display: flex;
     align-items: center;
 }
 
 .center-horizontal {
+    display: flex;
     justify-content: center;
 }
 
 .center-both {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -156,7 +161,8 @@
     overflow: scroll;
 }
 
-/* Spacer */
+/* Spacer (both flex and block) */
 .spacer {
+    /* Flex */
     flex: 1;
 }
